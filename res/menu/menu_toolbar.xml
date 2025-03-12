@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <!-- Forward arrow icon; will only be inflated if getForwardIntent() is non-null -->
+    <item
+        android:id="@+id/action_forward"
+        android:icon="@android:drawable/ic_media_next"
+        android:title="Forward"
+        app:showAsAction="always" />
+</menu>
